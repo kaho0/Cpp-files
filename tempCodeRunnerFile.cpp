@@ -7,7 +7,7 @@ int main()
     for(i=1;i<=n;i++)
     {
         cout<<"*";
-        for(j=1;j<=n-1;j++)
+        for(j=1;j<=n;j++)
         {
             if(i==1||i==n){
             cout<<"*";
@@ -15,8 +15,7 @@ int main()
         else{
             cout<<" ";
         }
-      
+        cout<<"*"<<endl;
     }
-      cout<<"*"<<endl;
 }
 }
